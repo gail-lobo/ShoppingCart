@@ -1,0 +1,47 @@
+.productCard{
+    width: 250px;
+    padding: 20px;
+    border: 1px solid #f5f5f5;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.productCard:hover{
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+
+.image-container img{
+    width: 250px;
+    height: 300px;
+} 
+
+.details p:nth-child(1){
+    font-weight: bold;
+}
+
+.details p:nth-child(2){
+    color: grey;
+    font-size: 0.8rem;
+}
+
+button{
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    background-color: green;
+    outline: none;
+    border-radius: 2px;
+    color: white;
+}
+
+.details button:nth-of-type(1) {
+    margin: 1em 0.5em 0 0;    
+}
+
+.details button:nth-of-type(2) {
+    margin: 1em 0 0 0.5em;
+}
+
+button:hover{
+    cursor: pointer;
+}
